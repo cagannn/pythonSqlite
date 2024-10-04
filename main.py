@@ -25,7 +25,6 @@ def writeDatabase():
       
     for i in _name:
       if i =="1" or i =="2" or i =="3" or i =="4" or i =="5" or i =="6" or i =="7" or i =="8" or i =="9" or i =="0":
-        print("girdi")
         is_succes=False
 
     if _grade >= 0 and _grade <= 100 and is_succes:
